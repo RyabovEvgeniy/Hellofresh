@@ -50,11 +50,19 @@
   line-height: 1.5;
   border-radius: 4px;
   padding: 8px 29px;
+  cursor: pointer;
 }
 .btn_green {
   background-color: #067a46;
   color: #fff;
   padding: 12px 24px;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.btn_green:hover {
+  background-color: #fff;
+  color: #067a46;
 }
 .btn_white {
   background-color: #fff;
@@ -62,6 +70,13 @@
   -webkit-box-shadow: inset 0px 0px 0px 1px #067a46;
           box-shadow: inset 0px 0px 0px 1px #067a46;
   border-color: rgba(255, 255, 255, 0.002);
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.btn_white:hover {
+  background-color: #067a46;
+  color: #fff;
 }
 
 body {
@@ -112,4 +127,31 @@ body {
   position: absolute;
   content: url(../img/menu-arrow.svg);
   right: -5px;
+}
+
+.fresh {
+  min-height: calc(100vh - 136px);
+  padding: 196px 0 50px;
+  background: url("../img/fresh-bg.png") center/cover no-repeat;
+  text-align: center;
+}
+.fresh__title {
+  max-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  color: #000;
+}
+.fresh__text {
+  color: #343434;
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 33px;
+}
+.fresh__link {
+  display: inline-block;
+  margin-bottom: 81px;
+}
+.fresh__btn {
+  background-color: transparent;
+  cursor: pointer;
 }

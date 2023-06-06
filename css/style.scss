@@ -1,5 +1,3 @@
-
-
 [class*="__container"] {
 	max-width: 1140px;
 	margin: 0 auto;
@@ -62,16 +60,27 @@ $blackColor: #242424;
 	line-height: 1.5;
 	border-radius: 4px;
 	padding: 8px 29px;
+	cursor: pointer;
 	&_green {
 		background-color: $greenColor;
 		color: $whiteColor;
 		padding: 12px 24px;
+		transition: all 0.5s ease;
+		&:hover {
+			background-color: $whiteColor;
+			color: $greenColor;
+		}
 	}
 	&_white {
 		background-color: $whiteColor;
 		color: $greenColor;
 		box-shadow: inset 0px 0px 0px 1px #067a46;
 		border-color: rgba(255, 255, 255, 0.002);
+		transition: all 0.5s ease;
+		&:hover {
+			background-color: $greenColor;
+			color: $whiteColor;
+		}
 	}
 }
 
@@ -87,7 +96,6 @@ body {
 
 // header
 .header {
-
 	// .header__container-big
 
 	&__container-big {
@@ -112,8 +120,6 @@ body {
 	align-items: center;
 	gap: 12px;
 
-
-
 	// .menu__item
 
 	&__item {
@@ -137,5 +143,45 @@ body {
 	}
 }
 
+// fresh
+.fresh {
+	min-height: calc(100vh - 136px);
+	padding: 196px 0 50px;
+	background: url("../img/fresh-bg.png") center / cover no-repeat;
+	text-align: center;
 
+	// .fresh__container
 
+	&__container {
+	}
+
+	// .fresh__title
+
+	&__title {
+		max-width: 300px;
+		margin: 0 auto;
+		margin-bottom: 40px;
+		color: #000;
+	}
+
+	// .fresh__text
+
+	&__text {
+		color: #343434;
+		font-size: 20px;
+		line-height: 1.6;
+		margin-bottom: 33px;
+	}
+
+	// .fresh__link
+
+	&__link {
+		display: inline-block;
+		margin-bottom: 81px;
+	}
+
+	&__btn {
+		background-color: transparent;
+		cursor: pointer;
+	}
+}
