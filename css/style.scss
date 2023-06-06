@@ -74,8 +74,8 @@ $blackColor: #242424;
 	&_white {
 		background-color: $whiteColor;
 		color: $greenColor;
-		box-shadow: inset 0px 0px 0px 1px #067a46;
-		border-color: rgba(255, 255, 255, 0.002);
+		border: 1px solid $greenColor;
+		border-color: $greenColor;
 		transition: all 0.5s ease;
 		&:hover {
 			background-color: $greenColor;
