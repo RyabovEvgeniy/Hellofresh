@@ -64,11 +64,13 @@ $blackColor: #242424;
 	&_green {
 		background-color: $greenColor;
 		color: $whiteColor;
+		border: 1px solid transparent;
 		padding: 12px 24px;
 		transition: all 0.5s ease;
 		&:hover {
 			background-color: $whiteColor;
 			color: $greenColor;
+			border: 1px solid $greenColor;
 		}
 	}
 	&_white {
@@ -88,6 +90,7 @@ $blackColor: #242424;
 body {
 	font-family: "Source Sans Pro", sans-serif;
 	// font-family: "Inter", sans-serif;
+	// font-family: "Segoe UI Symbol", sans-serif;
 	// background: #f9f9f9;
 	color: $blackColor;
 	font-size: 16px;
@@ -252,5 +255,81 @@ body {
 		max-width: 200px;
 	}
 }
+
+// inside
+.inside {
+	padding: 20px 0;
+
+	// .inside__container
+
+	&__container {
+	}
+
+	// .inside__inner
+
+	&__inner {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+	}
+
+	// .inside__img
+
+	&__img {
+	}
+
+	// .inside__content
+
+	&__content {
+		flex: 0 1 457px;
+		padding: 15px 15px 0 15px;
+	}
+
+	// .inside__link
+
+	&__link {
+		display: inline-block;
+		min-width: 100%;
+		text-align: center;
+	}
+}
+.content-inside {
+
+	// .content-inside__title
+
+	&__title {
+		font-family: "Inter", sans-serif;
+		font-size: 23px;
+		line-height: 1.39;
+		letter-spacing: -0.3px;
+		text-align: center;
+	}
+
+	// .content-inside__list
+
+	&__list {
+		margin-bottom: 50px;
+	}
+}
+.list-inside {
+
+	// .list-inside__item
+
+	&__item {
+		font-family: "Segoe UI Symbol", sans-serif;
+		max-width: 351px;
+		&:not(:last-child) {
+			margin-bottom: 5px;
+		}
+		&_selected{
+			font-family: "Source Sans Pro", sans-serif;
+			color: $greenColor;
+			text-decoration-line: underline;
+		}
+	}
+}
+
+
 
 

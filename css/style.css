@@ -55,6 +55,7 @@
 .btn_green {
   background-color: #067a46;
   color: #fff;
+  border: 1px solid transparent;
   padding: 12px 24px;
   -webkit-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
@@ -63,6 +64,7 @@
 .btn_green:hover {
   background-color: #fff;
   color: #067a46;
+  border: 1px solid #067a46;
 }
 .btn_white {
   background-color: #fff;
@@ -206,4 +208,55 @@ body {
 }
 .item-why__text {
   max-width: 200px;
+}
+
+.inside {
+  padding: 20px 0;
+}
+.inside__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.inside__content {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 457px;
+          flex: 0 1 457px;
+  padding: 15px 15px 0 15px;
+}
+.inside__link {
+  display: inline-block;
+  min-width: 100%;
+  text-align: center;
+}
+
+.content-inside__title {
+  font-family: "Inter", sans-serif;
+  font-size: 23px;
+  line-height: 1.39;
+  letter-spacing: -0.3px;
+  text-align: center;
+}
+.content-inside__list {
+  margin-bottom: 50px;
+}
+
+.list-inside__item {
+  font-family: "Segoe UI Symbol", sans-serif;
+  max-width: 351px;
+}
+.list-inside__item:not(:last-child) {
+  margin-bottom: 5px;
+}
+.list-inside__item_selected {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #067a46;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
 }
