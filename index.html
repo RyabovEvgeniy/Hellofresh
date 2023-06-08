@@ -5,15 +5,16 @@
 	<meta charset="UTF-8">
 	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
 	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
-	<link rel="stylesheet" href="css/base.css">
-	<link rel="stylesheet" href="css/null.css">
-	<link rel="stylesheet" href="css/style.css">
+
 	<!-- Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link
 		href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Source+Sans+Pro:wght@400;600&display=swap"
 		rel="stylesheet">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/null.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -71,10 +72,10 @@
 					</g>
 					<rect x="1.10156" y="0.5" width="49" height="49" rx="24.5" stroke="#067A46" />
 					<defs>
-				<clipPath id="clip0_12_349">
-				<rect width="26" height="26" fill="white" transform="translate(12.6016 12)"/>
-				</clipPath>
-				</defs>
+						<clipPath id="clip0_12_349">
+							<rect width="26" height="26" fill="white" transform="translate(12.6016 12)" />
+						</clipPath>
+					</defs>
 				</svg>
 			</button>
 		</section>
@@ -119,7 +120,8 @@
 							<li class="list-inside__item">✓ High-quality ingredients sourced straight from the farm</li>
 							<li class="list-inside__item">✓ Convenient meal kits that fit perfectly in the fridge</li>
 							<li class="list-inside__item">✓ A fun cooking experience that makes you feel unstoppable</li>
-							<li class="list-inside__item list-inside__item_selected">✓ Innovative packaging designed to reduce waste</li>
+							<li class="list-inside__item list-inside__item_selected">✓ Innovative packaging designed to reduce waste
+							</li>
 						</ul>
 						<a href="" class="inside__link btn btn_green">View our plans</a>
 					</div>
@@ -127,7 +129,62 @@
 			</div>
 		</section>
 		<!-- /.inside -->
+
+		<section class="over">
+			<div class="over__container">
+				<h2 class="over__title subtitle">Over 30+ fresh recipes every week</h2>
+				<p class="over__text">Easy meals designed by professional chefs and nutritionists</p>
+				<div class="over__slider">
+					<div class="slider">
+						<div class="slider__item slide">
+							<div class="slide__image"><img class="slide__img" src="img/slider-img1.jpg" alt="">
+							</div>
+							<div class="slide__content">
+								<h3 class="slide__title">MEAT & VEGGIES</h3>
+							<p class="slide__text">OUR MOST POPULAR PLAN</p>
+							</div>							
+						</div>
+						<div class="slider__item slide">
+							<div class="slide__image"><img class="slide__img" src="img/slider-img2.jpg" alt="">
+							</div>
+							<div class="slide__content">
+							<h3 class="slide__title">VEGGIE</h3>
+							<p class="slide__text slide__text_green">& PLANT-BASED MEALS</p>
+						</div>
+						</div>
+						<div class="slider__item slide">
+							<div class="slide__image"><img class="slide__img" src="img/slider-img3.jpg" alt="">
+							</div>
+							<div class="slide__content">
+							<h3 class="slide__title">FAMILY FRIENDLY</h3>
+							<p class="slide__text slide__text_blue">KID-TESTED RECIPES</p>
+						</div>
+						</div>
+						<div class="slider__item slide">
+							<div class="slide__image"><img class="slide__img" src="img/slider-img4.jpg" alt="">
+							</div>
+							<div class="slide__content">
+							<h3 class="slide__title">FIT & WHOLESOME</h3>
+							<p class="slide__text">FOR A BALANCED LIFESTYLE</p>
+						</div>
+						</div>
+					</div>
+				</div>
+				<a href="#" class="over__link btn btn_white">View our menus</a>
+			</div>
+		</section>		
+		<!-- /.over -->
 	</div>
+
+	<!-- script -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+		integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+		integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="js/main.js"></script>
+	<!-- /.script -->
 
 </body>
 
