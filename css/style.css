@@ -487,3 +487,33 @@ body {
 .accordion .ui-accordion-content {
   padding: 0 0 0 56px;
 }
+
+.footer__top {
+  border: 1px solid #eeeeee;
+  padding: 48px 0;
+}
+.top-footer__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.top-footer__item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 200px;
+          flex: 0 1 200px;
+}
+.top-footer__item .item-list_chage-color {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 340px;
+          flex: 0 1 340px;
+}
+
+.item-list__title {
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.item-list__text {
+  font-size: 14px;
+  color: #067a46;
+  margin-bottom: 5px;
+}
