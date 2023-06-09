@@ -42,6 +42,7 @@
   font-family: "Inter", sans-serif;
   font-size: 30px;
   line-height: 1.27;
+  letter-spacing: -0.3px;
 }
 
 .btn {
@@ -355,11 +356,11 @@ body {
 }
 .slide__text_blue {
   color: #fff;
-  background-color: #37938A;
+  background-color: #37938a;
 }
 .slide__text_green {
   color: #fff;
-  background-color: #476B2D;
+  background-color: #476b2d;
 }
 
 /* Слайдер */
@@ -391,3 +392,46 @@ body {
 /* Точки (булиты) */
 /* Активная точка */
 /* Элемент точки */
+.cook {
+  padding: 40px 0;
+  text-align: center;
+  border-bottom: 1px solid #eeeeee;
+}
+.cook__title {
+  margin-bottom: 30px;
+}
+.cook__text {
+  margin-bottom: 60px;
+}
+.cook__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+.item-cook {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.item-cook__img {
+  margin-bottom: 30px;
+}
+.item-cook__title {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: -0.3px;
+  margin-bottom: 12px;
+}
+.item-cook__text {
+  max-width: 200px;
+}
