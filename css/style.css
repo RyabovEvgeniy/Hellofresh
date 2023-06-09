@@ -435,3 +435,23 @@ body {
 .item-cook__text {
   max-width: 200px;
 }
+
+.plans {
+  background: url("../img/plans-bg.png") center/cover no-repeat;
+  padding: 40px 0;
+  text-align: center;
+}
+.plans__title {
+  font-family: "Verdana", sans-serif;
+  font-size: 35px;
+  line-height: 1.37;
+  margin-bottom: 40px;
+}
+.plans__text {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 32px;
+}
+.plans__link {
+  display: inline-block;
+}
