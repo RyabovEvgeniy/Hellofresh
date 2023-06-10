@@ -693,7 +693,7 @@ body {
 
 	&__item {
 		flex: 0 1 200px;
-		.item-list_chage-color {
+		&.top-footer__item_chage_width {
 			flex: 0 1 340px;
 		}
 	}
@@ -719,5 +719,16 @@ body {
 	// .item-list__link
 
 	&__link {
+	}
+
+	&_chage-color {
+		& .item-list__title{
+			color: $greenColor;
+		}
+		& .item-list__text {
+			color: $blackColor;
+			font-size: 16px;
+			line-height: 1.15;
+		}
 	}
 }

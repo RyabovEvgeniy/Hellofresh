@@ -259,8 +259,7 @@ body {
 .list-inside__item_selected {
   font-family: "Source Sans Pro", sans-serif;
   color: #067a46;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration-line: underline;
 }
 
 .over {
@@ -502,7 +501,7 @@ body {
       -ms-flex: 0 1 200px;
           flex: 0 1 200px;
 }
-.top-footer__item .item-list_chage-color {
+.top-footer__item.top-footer__item_chage_width {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 340px;
           flex: 0 1 340px;
@@ -516,4 +515,12 @@ body {
   font-size: 14px;
   color: #067a46;
   margin-bottom: 5px;
+}
+.item-list_chage-color .item-list__title {
+  color: #067a46;
+}
+.item-list_chage-color .item-list__text {
+  color: #242424;
+  font-size: 16px;
+  line-height: 1.15;
 }
