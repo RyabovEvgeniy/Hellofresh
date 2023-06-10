@@ -619,16 +619,16 @@ body {
 
 // questions
 .questions {
-	background-color: #F8F8F8;
+	background-color: #f8f8f8;
 	padding: 30px 0 24px;
-	
+
 	// .questions__container
-	
+
 	&__container {
 	}
-	
+
 	// .questions__title
-	
+
 	&__title {
 		text-align: center;
 		margin-bottom: 16px;
@@ -663,7 +663,6 @@ body {
 
 // footer
 .footer {
-
 	// .footer__container
 
 	&__container {
@@ -682,7 +681,6 @@ body {
 	}
 }
 .top-footer {
-
 	// .top-footer__items
 
 	&__items {
@@ -699,7 +697,6 @@ body {
 	}
 }
 .item-list {
-
 	// .item-list__title
 
 	&__title {
@@ -713,7 +710,6 @@ body {
 		font-size: 14px;
 		color: $greenColor;
 		margin-bottom: 5px;
-
 	}
 
 	// .item-list__link
@@ -722,7 +718,7 @@ body {
 	}
 
 	&_chage-color {
-		& .item-list__title{
+		& .item-list__title {
 			color: $greenColor;
 		}
 		& .item-list__text {
@@ -730,5 +726,55 @@ body {
 			font-size: 16px;
 			line-height: 1.15;
 		}
+	}
+}
+
+.bottom-footer {
+	padding: 25px 0;
+	font-size: 14px;
+	line-height: 1.43;
+	// display: flex;
+	&__items {
+		display: flex;
+		align-items: center;
+	}
+
+	// .bottom-footer__menu
+
+	&__menu {
+		flex: 1 1 auto;
+		display: flex;
+		align-items: center;
+		gap: 23px;
+	}
+}
+.cope-right {
+	display: inline-block;
+	color: $blackColor;
+	margin-right: 65px;
+}
+.item-list {
+	// .item-list__text
+
+	&__text {
+	}
+
+	// .item-list__link
+
+	&__link {
+	}
+}
+.social {
+	display: flex;
+	gap: 21px;
+
+	// .social__item
+
+	&__item {
+	}
+
+	// .social__link
+
+	&__link {
 	}
 }
